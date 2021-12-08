@@ -21,3 +21,6 @@ docker run -p 8081:8080 docker-example
 
 3. Go to the browser or postman and check one of the endpoints
    `http://localhost:8081/books/all`
+
+## Demo
+![springboot-docker-example](https://user-images.githubusercontent.com/9819702/145116202-16f9bb49-0ec0-40d6-9c6c-8819e7beacb5.gif)
