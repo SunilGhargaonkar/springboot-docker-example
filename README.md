@@ -23,4 +23,4 @@ docker run -p 8081:8080 docker-example
    `http://localhost:8081/books/all`
 
 ## Demo
-![springboot-docker-example](https://user-images.githubusercontent.com/9819702/145116202-16f9bb49-0ec0-40d6-9c6c-8819e7beacb5.gif)
+![docker-example](https://user-images.githubusercontent.com/9819702/145293873-1406a6db-4d72-4a32-9c1c-a1116902c7bf.gif)
