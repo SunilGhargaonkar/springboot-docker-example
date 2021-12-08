@@ -13,14 +13,17 @@ mvn clean && mvn package && java -jar target/docker-example.jar
 ```
 cd projects/springboot-docker-example
 
-docker build .
-docker build -t docker-example .
 
+docker build --tag docker-example .
+
+```
+4. Run the docker image
+```
 docker run -p 8081:8080 docker-example
 ```
 
-3. Go to the browser or postman and check one of the endpoints
+6. Go to the browser or postman and check one of the endpoints
    `http://localhost:8081/books/all`
 
 ## Demo
-![docker-example](https://user-images.githubusercontent.com/9819702/145293873-1406a6db-4d72-4a32-9c1c-a1116902c7bf.gif)
+![docker-example](https://user-images.githubusercontent.com/9819702/145300262-126cf7fe-00cf-44b6-a115-6a043cbd7179.gif)
